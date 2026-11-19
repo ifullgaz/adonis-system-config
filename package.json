@@ -1,7 +1,7 @@
 {
   "name": "@ifullgaz/adonis-system-config",
   "description": "Adonis System Config is a package that provides a simple way to configure the system.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "engines": {
     "node": ">=24.0.0"
   },
