@@ -1,0 +1,11 @@
+{{{
+  exports({ to: app.configPath('system_config.ts') })
+}}}
+import { defineConfig } from '@ifullgaz/adonis-system-config'
+import SystemConfig from '@ifullgaz/adonis-system-config/model'
+
+export default defineConfig({
+  model = SystemConfig
+  cacheKey = 'system_config:all',
+  cacheTtl = '1d',
+})
